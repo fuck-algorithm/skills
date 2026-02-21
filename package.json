@@ -1,0 +1,32 @@
+{
+  "name": "@fuck-algorithm/skills",
+  "version": "1.0.0",
+  "description": "Windsurf Skills for algorithm visualization and problem solving",
+  "main": "index.js",
+  "bin": {
+    "install-skills": "./install.js"
+  },
+  "scripts": {
+    "install:skills": "node install.js",
+    "postinstall": "node install.js"
+  },
+  "files": [
+    "skills/",
+    "install.sh",
+    "install.js",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fuck-algorithm/skills.git"
+  },
+  "keywords": [
+    "windsurf",
+    "skills",
+    "algorithm",
+    "visualization",
+    "leetcode"
+  ],
+  "author": "fuck-algorithm",
+  "license": "MIT"
+}
